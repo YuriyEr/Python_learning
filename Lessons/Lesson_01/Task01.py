@@ -10,7 +10,7 @@ value_one = "some text"
 print(value_one)
 
 # безопасное преобразование через отлов ошибок
-someValueInput =
+someValueInput = 100
 
 try:
     int(someValueInput)
