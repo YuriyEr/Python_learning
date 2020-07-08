@@ -21,7 +21,11 @@ if inputValueFirst == "да":
         if num > 20:
             print("Вы загадали число не из диапазона. Досвидание.")
             break
-    print("Отлично")
+    if inputValueSecond == "да":
+        print("Произведение ваших цифр {0} + {0}{0} + {0}{0}{0} = {1}".format(num, (
+            num + int("{0}{0}".format(num)) + int("{0}{0}{0}".format(num)))
+        ) )
+        print("Отлично")
 
 else:
     num = 10
@@ -33,4 +37,8 @@ else:
             print("Вы загадали число не из диапазона. Досвидание.")
             break
 
-    print("Отлично")
+    if inputValueSecond == "да":
+        print("Произведение ваших цифр {0} + {0}{0} + {0}{0}{0} = {1}".format(num, (
+            num + int("{0}{0}".format(num)) + int("{0}{0}{0}".format(num)))
+        ) )
+        print("Отлично")

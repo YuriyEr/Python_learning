@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0338885-ac71-4395-b476-9df25a546f45" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Lesson_01/Task04.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson_01/Task03.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_01/Task03.py" afterDir="false" />
     </list>
@@ -52,7 +53,7 @@
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Python.Task03">
+  <component name="RunManager" selected="Python.Task04">
     <configuration name="Task01 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Lessons" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,8 +138,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Task04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lessons" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_01/Task04.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Task04" />
         <item itemvalue="Python.Task03" />
         <item itemvalue="Python.Task01 (1)" />
         <item itemvalue="Python.Task01" />
@@ -196,22 +219,22 @@
       <screen x="0" y="23" width="1440" height="840" />
     </state>
     <state x="466" y="318" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.840@0.23.1440.840" timestamp="1594134046831" />
-    <state width="1414" height="214" key="GridCell.Tab.0.bottom" timestamp="1594138993202">
+    <state width="1414" height="214" key="GridCell.Tab.0.bottom" timestamp="1594202095731">
       <screen x="0" y="23" width="1440" height="840" />
     </state>
-    <state width="1414" height="214" key="GridCell.Tab.0.bottom/0.23.1440.840@0.23.1440.840" timestamp="1594138993202" />
-    <state width="1414" height="214" key="GridCell.Tab.0.center" timestamp="1594138993202">
+    <state width="1414" height="214" key="GridCell.Tab.0.bottom/0.23.1440.840@0.23.1440.840" timestamp="1594202095731" />
+    <state width="1414" height="214" key="GridCell.Tab.0.center" timestamp="1594202095730">
       <screen x="0" y="23" width="1440" height="840" />
     </state>
-    <state width="1414" height="214" key="GridCell.Tab.0.center/0.23.1440.840@0.23.1440.840" timestamp="1594138993202" />
-    <state width="1414" height="214" key="GridCell.Tab.0.left" timestamp="1594138993201">
+    <state width="1414" height="214" key="GridCell.Tab.0.center/0.23.1440.840@0.23.1440.840" timestamp="1594202095730" />
+    <state width="1414" height="214" key="GridCell.Tab.0.left" timestamp="1594202095729">
       <screen x="0" y="23" width="1440" height="840" />
     </state>
-    <state width="1414" height="214" key="GridCell.Tab.0.left/0.23.1440.840@0.23.1440.840" timestamp="1594138993201" />
-    <state width="1414" height="214" key="GridCell.Tab.0.right" timestamp="1594138993202">
+    <state width="1414" height="214" key="GridCell.Tab.0.left/0.23.1440.840@0.23.1440.840" timestamp="1594202095729" />
+    <state width="1414" height="214" key="GridCell.Tab.0.right" timestamp="1594202095730">
       <screen x="0" y="23" width="1440" height="840" />
     </state>
-    <state width="1414" height="214" key="GridCell.Tab.0.right/0.23.1440.840@0.23.1440.840" timestamp="1594138993202" />
+    <state width="1414" height="214" key="GridCell.Tab.0.right/0.23.1440.840@0.23.1440.840" timestamp="1594202095730" />
     <state x="317" y="186" key="Vcs.Push.Dialog.v2" timestamp="1594134122394">
       <screen x="0" y="23" width="1440" height="840" />
     </state>
