@@ -12,5 +12,5 @@ while value>1:
         maxValue = valueCurrent
     value = value / 10
 if maxValue > 1:
-    print("Максимальное десятичное число в вашей цифре равна {}".format(maxValue))
-else: print("Максимальное десятичное число в вашей цифре равна {}".format(value))
+    print("Максимальное десятичное число в вашей цифре равно {}".format(maxValue))
+else: print("Максимальное десятичное число в вашей цифре равно {}".format(value))
