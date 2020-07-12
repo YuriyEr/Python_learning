@@ -10,4 +10,18 @@
 #
 # Набор натуральных чисел можно задать непосредственно в коде, например, my_list = [7, 5, 3, 3, 2].
 
-print(list(range(0, 10)))
+someList = [7, 5, 3, 3, 2]
+
+selector = True
+while selector:
+    newValue = input("Введите натуральное число. Если вы хотите закончить наберите Домой\n")
+    if newValue == "Домой":
+        selector = not selector
+    else:
+        try:
+            newValue = int(newValue)
+            someList.append(newValue)
+            someList.sort(key=int, reverse=True)
+            print(f"Новый результат {someList}")
+        except:
+            print("Вы вводите не натуральное число")
