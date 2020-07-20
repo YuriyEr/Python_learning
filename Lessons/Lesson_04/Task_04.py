@@ -16,15 +16,8 @@ def interseptList(list):
     newList = []
     mySet = set(someList)
     for x in list:
-        check = False
-        try:
-            if newList.index(x) >= 0:
-                check = False
-        except:
-            check = True
-        if mySet.issuperset([x]) and check:
+        if mySet.issuperset([x]) and newList.count(x) == 0:
             newList.append(x)
-        check = False
     return newList
 
 print(f"Исходный генерируемый набор\n{someList}")
