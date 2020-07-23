@@ -5,7 +5,7 @@
 
 import os
 
-nameObj = r"someText.txt"
+nameObj = r"Task01 Text.txt"
 
 if os.path.exists("."):
     if os.path.exists(nameObj):
