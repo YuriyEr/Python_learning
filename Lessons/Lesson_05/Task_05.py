@@ -16,7 +16,6 @@ B
 
 import os
 import re
-import numpy
 
 nameObj = r"Task05-01 Text.txt"
 # A
